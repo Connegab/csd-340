@@ -1,0 +1,54 @@
+/* Author: Gabe Conner */
+/* Assignment: 3.3 Build a Web Page Exercise - Part 3 */
+
+h1 {
+    text-align: center;
+}
+
+#left-div, #right-div {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#bottom-div {
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+}
+
+#bottom-div a {
+    float: right;  /* link floats to the right */
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol, ul {
+    font-weight: 300;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+/* Ordered list with solid border */
+#left-div h3, #left-div ol {
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+/* Unordered list with dashed border */
+#right-div h3, #right-div ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+    list-style-type: upper-roman;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
