@@ -18,6 +18,8 @@ h3 {
 
 figure {
     text-align: center;
+    border: 2px solid #4F3674;  /* A Border For My Images */
+    padding: 10px;
 }
 
 figcaption {
@@ -25,11 +27,7 @@ figcaption {
     font-size: 0.75em;
 }
 
-/* A Border For My Images */
-figure img {
-    border: 2px solid #4F3674;
-    padding: 5px;
-}
+
 
 #bottom-div {
     width: 100%;
