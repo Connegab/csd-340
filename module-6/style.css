@@ -1,0 +1,113 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ECF0F1;
+  margin: 0;
+  padding: 0;
+  color: #2C3E50;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #2C3E50;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #ECF0F1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #E67E22;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+}
+
+.hero img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #3498DB;
+}
+
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.card h3 {
+  color: #3498DB;
+  text-align: center;
+}
+
+.about {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.about .portrait {
+  display: block;
+  margin: 0 auto 20px;
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #E67E22;
+}
+
+.interview {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.interview ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.interview li {
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #34495E;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
