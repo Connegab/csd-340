@@ -79,10 +79,10 @@ footer p {
   right: 10px;
   font-style: italic;
   text-decoration: none;
-  color: purple;
+  color: rgb(235, 230, 235);
 }
 
 .back-link:hover {
   text-decoration: underline;
-  color: darkviolet;
+  color: rgb(248, 247, 248);
 }
