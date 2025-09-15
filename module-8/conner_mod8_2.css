@@ -3,6 +3,9 @@
   transition: 0.3s;
   width: 50%;
   margin-bottom: 20px;
+  border: 3px solid purple;  
+  border-radius: 10px;      
+  overflow: hidden;
 }
 
 .card:hover {
@@ -15,6 +18,8 @@
   color: #3498DB;
   font-weight: 400;
   margin-bottom: 10px;
+  border-bottom: 2px solid purple; 
+  padding-bottom: 5px;
 }
 
 .card-content {
@@ -25,12 +30,17 @@
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 30px;
+  border: 3px solid purple;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 #movies th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
+  background-color: #f9f9f9;
+  border-bottom: 2px solid purple;
 }
 
 #movies td {
@@ -41,6 +51,8 @@
 #container {
   margin: 2% 5% 100px 5%;
   padding: 10px;
+  border: 3px solid purple;  
+  border-radius: 12px;
 }
 
 footer {
@@ -52,6 +64,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+  border-top: 3px solid purple; 
 }
 
 footer p {
