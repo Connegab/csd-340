@@ -1,11 +1,14 @@
+/* Assignment 8.2 - Gabe Conner - CSD 340 Web Development with HTML and CSS */
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 50%;
   margin-bottom: 20px;
-  border: 3px solid purple;  
-  border-radius: 10px;      
+  border: 1px solid purple;  
+  border-radius: 6px;
   overflow: hidden;
+  background: #fff;
 }
 
 .card:hover {
@@ -15,10 +18,10 @@
 .card-title {
   text-align: center;
   font-size: 2em;
-  color: #3498DB;
+  color: purple;
   font-weight: 400;
   margin-bottom: 10px;
-  border-bottom: 2px solid purple; 
+  border-bottom: 1px solid purple; 
   padding-bottom: 5px;
 }
 
@@ -30,9 +33,7 @@
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 30px;
-  border: 3px solid purple;
-  border-radius: 8px;
-  overflow: hidden;
+  border: 1px solid purple;
 }
 
 #movies th {
@@ -40,37 +41,48 @@
   padding-bottom: 12px;
   text-align: left;
   background-color: #f9f9f9;
-  border-bottom: 2px solid purple;
+  border: 1px solid purple;
 }
 
 #movies td {
-  border: 1px solid #ddd;
+  border: 1px solid purple;
   padding: 8px;
 }
 
 #container {
   margin: 2% 5% 100px 5%;
   padding: 10px;
-  border: 3px solid purple;  
-  border-radius: 12px;
 }
 
 footer {
   background-color: #2C3E50;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 15px;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  border-top: 3px solid purple; 
+  border-top: 2px solid purple; 
 }
 
 footer p {
   margin: 0;
   font-weight: 400;
   font-style: italic;
-  text-align: left;
   padding-left: 10px;
+}
+
+.back-link {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-style: italic;
+  text-decoration: none;
+  color: purple;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+  color: darkviolet;
 }
