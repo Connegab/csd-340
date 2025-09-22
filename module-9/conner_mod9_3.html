@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Gabe Conner" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSD 340 Web Development with HTML and CSS</title>
+
+  <script>
+    var firstWord = "ranch";
+    var secondWord = "family";
+    var thirdWord = "novels";
+    var fourthWord = "Oregon";
+  </script>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+    <p>
+      I grew up on a <span id="ranch">_________</span> in a rural town in Oregon. My childhood was filled with
+      responsibilities and work that helped shape my character and discipline.
+    </p>
+
+    <p>
+      My <span id="family">_________</span> has always been an important part of my life. Their support has kept me
+      motivated through school and work, and I will always be grateful for their encouragement.
+    </p>
+
+    <p>
+      In my free time, I love reading web <span id="novels">_________</span> that are translated from South Korean or
+      Chinese. The unique storytelling styles captivate me and offer fresh perspectives.
+    </p>
+
+    <p>
+      One of my favorite places is Crater Lake, located in southern <span id="oregon">_________</span>. Hiking around
+      there always reminds me of the beauty of my home state.
+    </p>
+
+    <hr />
+
+    <p>
+      <button type="button" onclick="document.getElementById('ranch').innerHTML = firstWord">ranch</button>
+      <button type="button" onclick="document.getElementById('family').innerHTML = secondWord">family</button>
+      <button type="button" onclick="document.getElementById('novels').innerHTML = thirdWord">novels</button>
+      <button type="button" onclick="document.getElementById('oregon').innerHTML = fourthWord">Oregon</button>
+    </p>
+  </div>
+</body>
+</html>
